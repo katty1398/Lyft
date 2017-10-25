@@ -1,0 +1,264 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background-image: url(../assets/images/hero.gif);
+	background-size: cover;
+	height: 800px;
+	border: 0px;
+	margin:-8px;
+	margin-bottom: 0px;
+}	
+	
+
+header img{
+	width: 60px;
+	margin: 70px;
+	position: absolute;
+}
+
+
+.menu{
+	list-style: none;
+	padding: 50px;
+	line-height: 40px;
+	margin-top: 0px;
+	margin-left: 750px;
+
+
+
+
+}
+
+.menu li{
+	width: 100px;
+	display:inline-block;
+	text-align: center;
+	float: left;
+	font-size: 20px;
+	margin-right: 20px;
+
+
+}
+
+.menu a:hover{
+	color: #FF00BF;
+
+}
+
+.menu a{
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	margin-right: 20px;
+}
+
+.menu li:last-child{
+	border: 1px #FFF solid;
+	border-radius: 6px;
+	text-align: center;
+	width: 80px;
+	padding-left: 10px;
+
+}
+
+.contenedor{
+	background-color: #FFF;
+	width: 600px;
+	height: 400px;
+	margin-left: 800px;
+
+}
+
+.titulo{
+	margin:20px;
+	padding-left: 50px;
+	padding-top: 50px;
+	color: #352384;
+	font-size: 40px;
+
+}
+
+.text{
+	padding-left: 70px;
+	color: #352384;
+}
+
+.contenedor .input input{
+	border: 0px;
+	border-bottom: 1px #352384 solid;
+	width: 450px;
+	margin-left: 70px;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.boton{
+	list-style: none
+	line-height: 40px;
+
+}
+
+.boton li{
+	display: inline-block;
+	float: left;
+	text-align: center;
+	width: 190px; 
+	text-decoration: none;
+
+
+}
+
+#primero a{
+	background-color: #FF00BF;
+	border-radius: 6px;
+	color: #FFF;
+	text-decoration: none;
+	padding: 15px ;
+	margin-left: 26px;
+}
+
+#segndo a{
+	color: #8893A9;	
+}
+
+.contenedor h4{
+	padding-left: 26px;
+	width: 800px;
+	margin-top: 70px;
+	margin-left:50px;
+	font-size: 10px;
+	color: #8893A9; 
+
+}
+
+main{
+    background: linear-gradient(#76278F, #2B1E66);
+    width: 100%;
+    height: 800px;
+    margin-left: -8px;
+	padding-top: 20px;
+	padding-right: 15px;
+
+}
+
+
+main .text-3{
+	width: 450px;
+	color: #FFF;
+	margin-bottom: 60px;
+	margin-left: 200px;
+
+
+}
+
+main img{
+	width: 500px;
+	float:right;
+	margin-right: 150px;
+	margin-top: -530px;
+}
+
+article{
+	background-color: #FFF;
+	width: 100%;
+	height: 1465px;
+}
+
+article .derecha{
+	float: right;
+	top: -50px;
+}
+
+article .texto-izquierdo{
+	width: 320px;
+	float: left;
+	padding-left: 70px;
+
+}
+
+article .izquierda{
+	width: 899px;
+	height: 506px;
+	float: left;
+	top: -50px;
+}
+/*
+article .texto-derecho{
+	width: 320px;
+	float: left;
+	margin-left: -50px;
+
+}*/
+
+footer{
+	background-color: #333447;
+	width: 100%;
+	height: 550px;
+}
+
+footer .parrafo{
+	width: 200px;
+	height: 200px;
+	color: #FFF;
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+	line-height: 40px;
+
+}
+
+
+footer p:hover{
+	color: #FF00BF;
+	cursor: pointer;
+}
+
+footer span{
+	text-transform: uppercase;
+	font-size: 20px;
+	cursor: pointer;
+	
+}
+
+footer span:hover{
+	text-decoration: underline;
+
+}
+
+footer img{
+	width: 200px;
+	margin-top: 40px;
+	cursor: pointer;
+
+}
+
+.iconos{
+	margin-left: 300px;
+	border-bottom: 2px #FFF solid;
+	width: 500px;
+	padding: 50px;
+	padding-left: 100px; 
+	margin-bottom: 40px;
+
+}
+
+.iconos span{
+	color: #FFF;
+	margin-left:80px;
+	border: 1px solid;
+	border-radius: 25px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+footer em{
+	color: #FFF;
+	margin-left: 530px;
+	font-size: 15px;
+
+
+}
+
+
